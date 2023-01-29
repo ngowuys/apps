@@ -3,7 +3,7 @@
 # Context menu
 #############
 */
-
+#context-sep-screenshots,
 #context-sep-navigation {
 	display: none !important;
 }
@@ -35,5 +35,16 @@
 	display: none !important;
 }
 #context-sendlinktodevice {
+	display: none !important;
+}
+
+/*
+#############
+# Buttons
+#############
+*/
+
+#back-button,
+#forward-button {
 	display: none !important;
 }
