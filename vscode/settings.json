@@ -1,0 +1,89 @@
+{
+	// Editor config
+	"editor.fontSize": 17,
+	"editor.fontFamily": "Cascadia Code PL, Jetbrains Mono",
+	"editor.formatOnSave": true,
+	"editor.wordWrap": "on",
+	"editor.minimap.enabled": false,
+	"editor.fontLigatures": true,
+	"editor.tabSize": 2,
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.bracketPairs": "active",
+
+	// Window config
+	"window.menuBarVisibility": "toggle",
+
+	// Explorer config
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+
+	// Disable telemetry
+	"telemetry.telemetryLevel": "off",
+
+	//Workbench config
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.startupEditor": "none",
+	"workbench.colorTheme": "GitHub Dark",
+
+	"git.ignoreMissingGitWarning": true,
+
+	// Terminal config
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"terminal.integrated.tabs.location": "left",
+	"terminal.integrated.defaultProfile.linux": "fish",
+	"terminal.integrated.enableBell": true,
+	"terminal.integrated.fontSize": 16,
+	"terminal.integrated.persistentSessionReviveProcess": "never",
+	"terminal.external.linuxExec": "",
+	"terminal.integrated.enableMultiLinePasteWarning": false,
+
+	// Security config
+	"security.workspace.trust.banner": "never",
+	"security.workspace.trust.startupPrompt": "never",
+	"security.workspace.trust.untrustedFiles": "open",
+	"security.workspace.trust.enabled": false,
+
+	// Prettier config
+	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
+
+	// Js config
+	"javascript.updateImportsOnFileMove.enabled": "always",
+
+	// Ts config
+	"typescript.locale": "en",
+
+	// Svelte
+	"svelte.enable-ts-plugin": true,
+
+	// File types
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[xml]": {
+		"editor.quickSuggestions": {
+			"other": false,
+			"comments": false,
+			"strings": false
+		}
+	}
+}

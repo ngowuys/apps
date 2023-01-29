@@ -1,0 +1,39 @@
+/*
+#############
+# Context menu
+#############
+*/
+
+#context-sep-navigation {
+	display: none !important;
+}
+#context-savepage {
+	display: none !important;
+}
+#context-sendlinktodevice {
+	display: none !important;
+}
+#context-sendpagetodevice {
+	display: none !important;
+}
+#context-pocket {
+	display: none !important;
+}
+#context-selectall {
+	display: none !important;
+}
+#context-bookmarklink {
+	display: none !important;
+}
+#context-savelink {
+	display: none !important;
+}
+#context-savelinktopocket {
+	display: none !important;
+}
+#context-copyemail {
+	display: none !important;
+}
+#context-sendlinktodevice {
+	display: none !important;
+}
