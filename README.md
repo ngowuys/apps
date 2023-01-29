@@ -13,7 +13,7 @@
 
 ## Config files
 
-- [Firefox](https://github.com/ngowuys/apps/firefox.md)
-- [mpv](https://github.com/ngowuys/apps/mpv.md)
-- [Visual Studio Code](https://github.com/ngowuys/apps/vscode.md)
+- [Firefox](https://github.com/ngowuys/apps/blob/main/firefox.md)
+- [mpv](https://github.com/ngowuys/apps/blob/main/mpv.md)
+- [Visual Studio Code](https://github.com/ngowuys/apps/blob/main/vscode.md)
 - Neovim - updating...
