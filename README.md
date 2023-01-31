@@ -5,11 +5,12 @@
 
 ## List of apps
 
+- [7-Zip](https://7-zip.org)
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 - [mpv](https://mpv.io)
-- [FileCentipede](https://github.com/filecxx/FileCentipede)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Neovim](https://neovim.io/) - Linux only
+- WSL - Windows Subsystem for Linux
 
 ## Config files
 
@@ -17,3 +18,4 @@
 - [mpv](https://github.com/ngowuys/apps/blob/main/mpv.md)
 - [Visual Studio Code](https://github.com/ngowuys/apps/blob/main/vscode.md)
 - Neovim - updating...
+- [WSL](https://github.com/ngowuys/apps/blob/main/wsl.md)

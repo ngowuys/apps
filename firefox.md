@@ -5,7 +5,6 @@
 - [Use RAM to cache files](#use-ram-to-cache-files)
 - [Apply Cascade theme](#apply-cascade-theme)
 - [Extensions list](#extensions-list)
-- [Credits](#credits)
 
 ## Disable telemetry
 
@@ -38,12 +37,7 @@
 - [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/) - Remove tracking elements from URLs
 - [Enhancer for YouTube™](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/) - Customize Youtube
 - [FastForward](https://addons.mozilla.org/en-US/firefox/addon/fastforwardteam/) - Skip URL shorteners
-- [File Centipede](https://github.com/filecxx/FileCentipede) - Extension for File Centipede
 - [SponsorBlock](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/) - Skip sponsors in Youtube videos
 - [TWP - Translate Web Pages](https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web/) - Translate web pages
 - [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) - Ads blocker
 - [Voz Next](https://addons.mozilla.org/en-US/firefox/addon/voz-next/) - For Voz.vn
-
-## Credits
-
-- [Cascade](https://github.com/andreasgrafen/cascade)

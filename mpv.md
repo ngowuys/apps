@@ -8,6 +8,7 @@
 
 - [uosc](https://github.com/tomasklaen/uosc) - Minimalist UI for mpv
 - [thumbfast](https://github.com/po5/thumbfast) - Thumbnailer for mpv
+- [autoload](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua) - Autoload next file in playlist
 
 ## How to configure
 
