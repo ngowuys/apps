@@ -38,6 +38,14 @@ Open PowerShell as Administrator and enter this command:
 
 `wsl --import <machine-name> <path-to-vm-dir> <path-to/rocky-9-image.tar.xz> --version 2`
 
+## Set up development environtment
+
+1. Move `setup.sh` file to Rocky Linux WSL
+2. Open Rocky Linux WSL terminal as `root`
+3. Run this command
+
+`bash setup.sh`
+
 ## Credits
 
 - [Microsoft](https://learn.microsoft.com/en-us/windows/wsl/install-manual)
