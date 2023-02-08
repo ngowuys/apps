@@ -13,7 +13,7 @@ dnf groupinstall -y "Development Tool"
 dnf install -y nodejs 
 
 # Enable systemd
-cat >> '/etc/wsl.conf' << END
+cat > "/etc/wsl.conf" << END
 [boot]
 systemd=true
 END
