@@ -5,6 +5,7 @@
 - [How to configure](#how-to-configure)
 - [Local scripts](#local-scripts)
 - [mpv folder structure](#mpv-folder-structure)
+- [Credits](#credits)
 
 ## How to install for Windows
 
