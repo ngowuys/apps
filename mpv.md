@@ -19,11 +19,13 @@
 
 ## Scripts list
 
-- [uosc](https://github.com/tomasklaen/uosc) - Minimalist UI for mpv
-- [thumbfast](https://github.com/po5/thumbfast) - Thumbnailer for mpv
-- [autoload](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua) - Autoload next file in playlist
-- [sponsorblock_minimal](https://codeberg.org/jouni/mpv_sponsorblock_minimal) - Skip skip sponsor segments in Youtube video - Only use if you want to watch youtube on mpv
- 
+| script                                                                           | note                                                                                       |
+|----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| [uosc](https://github.com/tomasklaen/uosc)                                       | Minimalist UI for mpv                                                                      |
+| [thumbfast](https://github.com/po5/thumbfast)                                    | Thumbnailer for mpv                                                                        |
+| [autoload](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua) | Autoload next file in playlist                                                             |
+| [sponsorblock_minimal](https://codeberg.org/jouni/mpv_sponsorblock_minimal)      | Skip skip sponsor segments in Youtube video - Only use if you want to watch youtube on mpv |
+
 ## Local scripts
 
 - longtitle.lua - Fix freeze error when video have long title

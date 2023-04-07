@@ -7,58 +7,46 @@
 
 ## Optimize Firefox
 
+### about:config tweaks
+
+| key                                                 | value   | note                                                                                       |
+|-----------------------------------------------------|---------|--------------------------------------------------------------------------------------------|
+| extensions.pocket.enabled                           | false   | Disable Pocket                                                                             |
+| extensions.pocket.onSaveRecs                        | false   | Remove Save to Pocket                                                                      |
+| extensions.screenshots.disabled                     | true    | Disable Firefox Screenshot                                                                 |
+| nglayout.initialpaint.delay                         | 2000    | Delay render refresh to 2 seconds                                                          |
+| gfx.webrender.all                                   | true    | Force enable WebRender                                                                     |
+| browser.cache.disk.enable                           | false   | Disable disk cache                                                                         |
+| browser.cache.memory.enable                         | true    | Enable RAM cache (enabled by default)                                                      |
+| browser.cache.memory.capacity                       | 1048576 | Capacity for RAM cache 1048576 = 1GB (you can decrease/increase value to fit with your PC) |
+| browser.cache.memory.max_entry_size                 | 512000  | Cache entry size Default: 5120 (you can decrease/increase value to fit with your PC)       |
+| devtools.accessibility.enabled                      | false   | Disable Inspect Accessibility Properties                                                   |
+| toolkit.legacyUserProfileCustomizations.stylesheets | true    | Enable userChrome                                                                          |
+
 ### Disable telemetry
 
 1. Go to `about:support` and open your Firefox Profile Folder
 2. Copy user.js file to that Firefox Profile Folder
 
-### Disable Pocket
-
-1. Go to `about:config`
-2. Search for `extensions.pocket.enabled` and change value to `false`
-
-
-### Delay render
-
-1. Go to `about:config`
-2. Search for `nglayout.initialpaint.delay` and change value to `2000`
-
-### Use RAM to cache files
-
-1. Go to `about:config`
-2. Change those keys's value
-
-| key                                 | value   |
-|-------------------------------------|---------|
-| browser.cache.disk.enable           | false   |
-| browser.cache.memory.enable         | true    |
-| browser.cache.memory.capacity       | 1048576 |
-| browser.cache.memory.max_entry_size | 512000  |
-
-## Customize Firefox
-
-### Disable Inspect Accessibility Properties
-
-1. Go to `about:config`
-2. Search for `devtools.accessibility.enabled` and change value to `false`
-
 ### Apply userChrome.css
 
-1. Goto `about:config`
-2. Search for `toolkit.legacyUserProfileCustomizations.stylesheets` and change value to `true`
-3. Go to `about:support` and open your Firefox Profile Folder
-4. Move `chrome` folder to your Firefox Profile Folder
+1. Go to `about:support` and open your Firefox Profile Folder
+2. Move `chrome` folder to that Firefox Profile Folder
+
 
 ### Extensions list
 
-- [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/) - Free password manager
-- [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/) - Remove tracking elements from URLs
-- [External Application Button (WebExtension)](https://addons.mozilla.org/en-US/firefox/addon/external-application/) - Open in External application
-- [FastForward](https://addons.mozilla.org/en-US/firefox/addon/fastforwardteam/) - Skip URL shorteners
-- [Header Editor](https://addons.mozilla.org/en-US/firefox/addon/header-editor/) - Edit resquest/response header
-- [TWP - Translate Web Pages](https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web/) - Translate web pages
-- [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) - Ads blocker
-- [Voz Next](https://addons.mozilla.org/en-US/firefox/addon/voz-next/) - For voz.vn
+| extension                                                                                                         | note                                              |
+|-------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|
+| [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin)                                     | Ads blocker                                       |
+| [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager)                            | Free password manager                             |
+| [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls)                                             | Remove tracking elements from URLs                |
+| [TWP - Translate Web Pages](https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web)                  | Translate webpages                                |
+| [LibRedirect](https://addons.mozilla.org/en-US/firefox/addon/libredirect)                                         | Redirects Youtube, Medium... to privacy frontend  |
+| [Voz Next](https://addons.mozilla.org/en-US/firefox/addon/voz-next)                                               | For voz.vn                                        |
+| [Sponsor Block](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock)                                      | Skip sponsor video                                |
+| [Header Editor](https://addons.mozilla.org/en-US/firefox/addon/header-editor)                                     | Edit resquest/response header                     |
+| [External Application Button (WebExtension)](https://addons.mozilla.org/en-US/firefox/addon/external-application) | Open in External application                      |
 
 ## Others
 

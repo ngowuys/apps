@@ -1,17 +1,24 @@
 # Set of apps and config for them
 
+- [Windows](#windows)
 - [List of apps](#list-of-apps)
-- [Config files](#config-files)
+- [Credits](#credits)
+
+## Windows
+
+| tool                                                     | note                      |
+|----------------------------------------------------------|---------------------------|
+| [SophiApp](https://github.com/Sophia-Community/SophiApp) | Tuning Windows            |
+| [Revo Uninstaller](https://www.revouninstaller.com)      | Remove Windows bloatwares |
 
 ## List of apps
 
-- [7-Zip](https://7-zip.org)
-- [Firefox ESR](https://www.mozilla.org/en-US/firefox/enterprise/)
-- [mpv](https://mpv.io)
-- [Neovim](https://neovim.io/) - Linux only
+| app                                                        | config                                                         |
+|------------------------------------------------------------|----------------------------------------------------------------|
+| [7-Zip](https://7-zip.org)                                 | -                                                              |
+| [Firefox](https://www.mozilla.org/en-US/firefox/browsers/) | [Config](https://github.com/ngowuys/apps/blob/main/firefox.md) |
+| [mpv](https://mpv.io/)                                     | [Config](https://github.com/ngowuys/apps/blob/main/mpv.md)     |
 
-## Config files
+## Credits
 
-- [Firefox](https://github.com/ngowuys/apps/blob/main/firefox.md)
-- [mpv](https://github.com/ngowuys/apps/blob/main/mpv.md)
-- Neovim - Updating ...
+- [voz.vn - Tổng hợp những addon chất cho Firefox PC (+Mobile)](https://voz.vn/t/tong-hop-nhung-addon-chat-cho-firefox-pc-mobile.682181/)
