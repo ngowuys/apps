@@ -40,6 +40,7 @@
 |-------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|
 | [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin)                                     | Ads blocker                                       |
 | [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager)                            | Free password manager                             |
+| [Sidebery](https://addons.mozilla.org/en-US/firefox/addon/sidebery)                                               | Tree tab style                                    |
 | [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls)                                             | Remove tracking elements from URLs                |
 | [TWP - Translate Web Pages](https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web)                  | Translate webpages                                |
 | [LibRedirect](https://addons.mozilla.org/en-US/firefox/addon/libredirect)                                         | Redirects Youtube, Medium... to privacy frontend  |
