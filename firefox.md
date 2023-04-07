@@ -50,6 +50,15 @@
 
 ## Others
 
+### Custom uBlock filter lists
+
+| list                                                                            | note                           |
+|---------------------------------------------------------------------------------|--------------------------------|
+| [ABPVN](https://abpvn.com/)                                                     | Ads filter list for Vietnamese |
+| [Bypass Paywall](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters) | Bypass Paywall filter list     |
+| [Facebook Blocklist](https://ethan-xd.github.io/)                               | Facebook ads filter list       |
+| [Reddit Blocklist](https://ethan-xd.github.io/)                                 | Reddit ads filter list         |
+
 ### Use Youtube mobile
 
 1. Create new role with `Header Editor`
