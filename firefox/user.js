@@ -98,3 +98,61 @@ user_pref('browser.safebrowsing.downloads.remote.enabled', false);
  * [TEST] see https://github.com/arkenfox/user.js/wiki/Appendix-A-Test-Sites#-mozilla
  * [1] https://bugzilla.mozilla.org/1226490 ***/
 // user_pref("browser.safebrowsing.allowOverride", false);
+
+/* 
+[CUSTOM] Customize by wuys
+*/
+
+// Disable Pocket
+user_pref('extensions.pocket.enabled', false);
+user_pref('extensions.pocket.onSaveRecs', false);
+
+// Disable Screenshot
+user_pref('extensions.screenshots.disabled', true);
+
+// Disable DevTools Accessibility
+user_pref('devtools.accessibility.enabled', false);
+
+// Enable WebRender
+user_pref('gfx.webrender.enabled', true);
+user_pref('gfx.webrender.all', true);
+
+// Delay render time
+user_pref('nglayout.initialpaint.delay', 2000);
+
+// Disable Disk cache
+user_pref('browser.cache.disk.enable', false);
+
+// Enable RAM cache
+user_pref('browser.cache.memory.enable', true);
+user_pref('browser.cache.memory.capacity', 1048576);
+user_pref('browser.cache.memory.max_entry_size', 512000);
+
+// Enable userChrome.css support
+user_pref('toolkit.legacyUserProfileCustomizations.stylesheets', true);
+
+// Disable OSCP
+user_pref('security.OCSP.enabled', false);
+
+// Use CrLite instead of OSCP
+user_pref('security.remote_settings.crlite_filters.enabled', true);
+user_pref('security.pki.crlite_mode', 2);
+
+// Enable ECH
+user_pref('network.dns.echconfig.enabled', true);
+user_pref('network.dns.http3_echconfig.enabled', true);
+
+// Optimize HTTP/3
+user_pref('network.http.http3.send_background_tabs_deprioritization', true);
+user_pref('network.http.http3.version_negotiation.enabled', true);
+user_pref('security.tls.ech.grease_http3', true);
+
+// TTR config
+user_pref('network.dns.skipTRR-when-parental-control-enabled', false);
+user_pref('network.trr.async_connInfo', true);
+user_pref('network.trr.confirmation_telemetry_enabled', false);
+user_pref('network.trr.disable-ECS', false);
+user_pref('network.trr.mode', 3);
+
+// Unlimited DNS Cache Entries
+user_pref('network.dnsCacheEntries', -1);
