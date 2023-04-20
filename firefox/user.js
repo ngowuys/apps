@@ -128,6 +128,9 @@ user_pref('browser.cache.memory.enable', true);
 user_pref('browser.cache.memory.capacity', 1048576);
 user_pref('browser.cache.memory.max_entry_size', 512000);
 
+// Remove space at end
+user_pref('layout.word_select.eat_space_to_next_word', false);
+
 // Enable userChrome.css support
 user_pref('toolkit.legacyUserProfileCustomizations.stylesheets', true);
 
