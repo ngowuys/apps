@@ -113,6 +113,10 @@ user_pref('extensions.screenshots.disabled', true);
 // Disable DevTools Accessibility
 user_pref('devtools.accessibility.enabled', false);
 
+// Disable List all tabs & Firefox Views
+user_pref('browser.tabs.tabmanager.enabled', false);
+user_pref('browser.tabs.firefox-view', false);
+
 // Enable WebRender
 user_pref('gfx.webrender.enabled', true);
 user_pref('gfx.webrender.all', true);
@@ -134,6 +138,10 @@ user_pref('layout.word_select.eat_space_to_next_word', false);
 // Enable userChrome.css support
 user_pref('toolkit.legacyUserProfileCustomizations.stylesheets', true);
 
+// Cookies banner
+user_pref('cookiebanners.service.mode', 2);
+user_pref('cookiebanners.service.mode.privateBrowsing', 2);
+
 // Disable OSCP
 user_pref('security.OCSP.enabled', false);
 
@@ -143,14 +151,26 @@ user_pref('security.pki.crlite_mode', 2);
 
 // Enable ECH
 user_pref('network.dns.echconfig.enabled', true);
+user_pref('network.dns.echconfig.fallback_to_origin_when_all_failed', false);
 user_pref('network.dns.http3_echconfig.enabled', true);
+user_pref('security.tls.ech.disable_grease_on_fallback', false);
+user_pref('security.tls.ech.grease_http3', true);
+user_pref('security.tls.ech.grease_probability', 100);
 
 // Optimize HTTP/3
 user_pref('network.http.http3.send_background_tabs_deprioritization', true);
 user_pref('network.http.http3.version_negotiation.enabled', true);
 user_pref('security.tls.ech.grease_http3', true);
 
+// Force use HTTP/3 and QUICv2
+user_pref(
+	'network.http.http3.alt-svc-mapping-for-testing',
+	'doh3.dns.nextdns.io;h3=":443"; quicv="6b3343cf,1"'
+);
+
 // TTR config
+user_pref('network.trr.uri', 'https://doh3.dns.nextdns.io/');
+user_pref('network.trr.custom_uri', 'https://doh3.dns.nextdns.io/');
 user_pref('network.dns.skipTRR-when-parental-control-enabled', false);
 user_pref('network.trr.async_connInfo', true);
 user_pref('network.trr.confirmation_telemetry_enabled', false);
