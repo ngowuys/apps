@@ -19,29 +19,27 @@
 
 ### Extensions list
 
-| extension                                                                                                         | note                                             |
-| ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
-| [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin)                                     | Ads blocker                                      |
-| [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager)                            | Free password manager                            |
-| [Sidebery](https://addons.mozilla.org/en-US/firefox/addon/sidebery)                                               | Tree tab style                                   |
-| [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls)                                             | Remove tracking elements from URLs               |
-| [TWP - Translate Web Pages](https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web)                  | Translate webpages                               |
-| [LibRedirect](https://addons.mozilla.org/en-US/firefox/addon/libredirect)                                         | Redirects Youtube, Medium... to privacy frontend |
-| [Voz Next](https://addons.mozilla.org/en-US/firefox/addon/voz-next)                                               | For voz.vn                                       |
-| [Sponsor Block](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock)                                      | Skip sponsor video                               |
-| [Header Editor](https://addons.mozilla.org/en-US/firefox/addon/header-editor)                                     | Edit resquest/response header                    |
-| [External Application Button (WebExtension)](https://addons.mozilla.org/en-US/firefox/addon/external-application) | Open in External application                     |
+| extension                                                                                                         | note                          |
+| ----------------------------------------------------------------------------------------------------------------- | ----------------------------- |
+| [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin)                                     | Ads blocker                   |
+| [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager)                            | Free password manager         |
+| [Linguist - web pages translator](https://addons.mozilla.org/en-US/firefox/addon/linguist-translator/)            | Translate webpages            |
+| [Voz Next](https://addons.mozilla.org/en-US/firefox/addon/voz-next)                                               | For voz.vn                    |
+| [Sponsor Block](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock)                                      | Skip sponsor video            |
+| [Header Editor](https://addons.mozilla.org/en-US/firefox/addon/header-editor)                                     | Edit resquest/response header |
+| [External Application Button (WebExtension)](https://addons.mozilla.org/en-US/firefox/addon/external-application) | Open in External application  |
 
 ## Others
 
 ### Custom uBlock filter lists
 
-| list                                                                            | note                           |
-| ------------------------------------------------------------------------------- | ------------------------------ |
-| [ABPVN](https://abpvn.com/)                                                     | Ads filter list for Vietnamese |
-| [Bypass Paywall](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters) | Bypass Paywall filter list     |
-| [Facebook Blocklist](https://ethan-xd.github.io/)                               | Facebook ads filter list       |
-| [Reddit Blocklist](https://ethan-xd.github.io/)                                 | Reddit ads filter list         |
+| list                                                                                                | note                           |
+| --------------------------------------------------------------------------------------------------- | ------------------------------ |
+| [ABPVN](https://abpvn.com/)                                                                         | Ads filter list for Vietnamese |
+| [Actually Legitimate URL Shortener Tool](https://github.com/DandelionSprout/adfilt/discussions/163) | Remove tracking param          |
+| [Bypass Paywall](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters)                     | Bypass Paywall filter list     |
+| [Facebook Blocklist](https://ethan-xd.github.io/)                                                   | Facebook ads filter list       |
+| [Reddit Blocklist](https://ethan-xd.github.io/)                                                     | Reddit ads filter list         |
 
 ### Use Youtube mobile
 
