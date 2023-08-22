@@ -84,8 +84,8 @@ user_pref('security.remote_settings.crlite_filters.enabled', true);
 user_pref('security.pki.crlite_mode', 2);
 
 // TTR config
-user_pref('network.trr.uri', 'https://dns.nextdns.io/1ef3ce');
-user_pref('network.trr.custom_uri', 'https://dns.nextdns.io/1ef3ce');
+user_pref('network.trr.uri', 'https://3ckaje6zhs.cloudflare-gateway.com/dns-query');
+user_pref('network.trr.custom_uri', 'https://3ckaje6zhs.cloudflare-gateway.com/dns-query');
 user_pref('network.dns.skipTRR-when-parental-control-enabled', false);
 user_pref('network.trr.async_connInfo', true);
 user_pref('network.trr.confirmation_telemetry_enabled', false);
