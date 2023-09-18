@@ -34,6 +34,12 @@
 	display: none !important;
 }
 
+/* Hide back forward button */
+#back-button,
+#forward-button {
+	display: none !important;
+}
+
 /* Remove space before tab bar */
 .titlebar-spacer[type='pre-tabs'] {
 	display: none;
