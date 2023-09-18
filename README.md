@@ -6,11 +6,12 @@
 
 ## Windows
 
-| tool                                                                       | note                                            |
-| -------------------------------------------------------------------------- | ----------------------------------------------- |
-| [SophiApp](https://github.com/Sophia-Community/SophiApp)                   | Tuning Windows and remove bloatwares            |
-| [O&O ShutUp10++](https://www.oo-software.com/en/shutup10)                  | Tuning Windows privacy                          |
-| [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager) | Clean context menu (Support Windows 7/8/8.1/10) |
+| tool                                                                       | note                                 |
+| -------------------------------------------------------------------------- | ------------------------------------ |
+| [SophiApp](https://github.com/Sophia-Community/SophiApp)                   | Tuning Windows and remove bloatwares |
+| [O&O ShutUp10++](https://www.oo-software.com/en/shutup10)                  | Tuning Windows privacy               |
+| [Privacy is sexy](https://privacy.sexy/)                                   | Tuning Windows                       |
+| [ContextMenuManager](https://github.com/BluePointLilac/ContextMenuManager) | Clean context menu                   |
 
 ## List of apps
 

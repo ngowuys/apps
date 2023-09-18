@@ -19,15 +19,14 @@
 
 ### Extensions list
 
-| extension                                                                                                         | note                          |
-| ----------------------------------------------------------------------------------------------------------------- | ----------------------------- |
-| [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin)                                     | Ads blocker                   |
-| [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager)                            | Free password manager         |
-| [Linguist - web pages translator](https://addons.mozilla.org/en-US/firefox/addon/linguist-translator/)            | Translate webpages            |
-| [Voz Next](https://addons.mozilla.org/en-US/firefox/addon/voz-next)                                               | For voz.vn                    |
-| [Sponsor Block](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock)                                      | Skip sponsor video            |
-| [Header Editor](https://addons.mozilla.org/en-US/firefox/addon/header-editor)                                     | Edit resquest/response header |
-| [External Application Button (WebExtension)](https://addons.mozilla.org/en-US/firefox/addon/external-application) | Open in External application  |
+| extension                                                                                         | note                          |
+| ------------------------------------------------------------------------------------------------- | ----------------------------- |
+| [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin)                     | Ads blocker                   |
+| [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager)            | Free password manager         |
+| [TWP - Translate Web Pages](https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web/) | Translate webpages            |
+| [Voz Next](https://addons.mozilla.org/en-US/firefox/addon/voz-next)                               | For voz.vn                    |
+| [Sponsor Block](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock)                      | Skip sponsor video            |
+| [Header Editor](https://addons.mozilla.org/en-US/firefox/addon/header-editor)                     | Edit resquest/response header |
 
 ## Others
 
@@ -54,21 +53,6 @@
 | Header value | User agent of a mobile device |
 
 2. Click `Save` and enjoy
-
-### Open Youtube video in MPV
-
-1. Make sure you installed [mpv](https://mpv.io) and follow [mpv config guide](https://github.com/ngowuys/apps/blob/main/mpv.md)
-2. You'll need to install [External Application Button (WebExtension)](https://addons.mozilla.org/en-US/firefox/addon/external-application/) and it's [native client](https://github.com/andy-portmen/native-client/releases).
-3. Open option page of extension then follow these steps
-
-| option          | value                               |
-| --------------- | ----------------------------------- |
-| Display Name    | What ever you want                  |
-| Executable Name | mpv                                 |
-| Arguments       | --ytdl [HREF]                       |
-| Placement       | Toolbar button/Link Context or Both |
-
-4. Click `Add application` and enjoy
 
 ## Credits
 

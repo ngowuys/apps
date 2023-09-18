@@ -1,4 +1,4 @@
-/** TELEMETRY ***/
+// Telemetry
 user_pref('datareporting.policy.dataSubmissionEnabled', false);
 user_pref('datareporting.healthreport.uploadEnabled', false);
 user_pref('toolkit.telemetry.unified', false);
@@ -17,24 +17,22 @@ user_pref('browser.ping-centre.telemetry', false);
 user_pref('browser.newtabpage.activity-stream.feeds.telemetry', false);
 user_pref('browser.newtabpage.activity-stream.telemetry', false);
 
-/** STUDIES ***/
+// Studies
 user_pref('app.shield.optoutstudies.enabled', false);
 user_pref('app.normandy.enabled', false);
 user_pref('app.normandy.api_url', '');
 
-/** CRASH REPORTS ***/
+// Crash Report
 user_pref('breakpad.reportURL', '');
 user_pref('browser.tabs.crashReporting.sendReport', false); // [FF44+]
 user_pref('browser.crashReports.unsubmittedCheck.autoSubmit2', false); // [DEFAULT: false]
 
-/** OTHER ***/
+// Other
 user_pref('captivedetect.canonicalURL', '');
 user_pref('network.captive-portal-service.enabled', false); // [FF52+]
 user_pref('network.connectivity-service.enabled', false);
 user_pref('_user.js.parrot', "0400 syntax error: the parrot's passed on!");
 user_pref('browser.safebrowsing.downloads.remote.enabled', false);
-
-/** Customize by wuys ***/
 
 // Disable Pocket
 user_pref('extensions.pocket.enabled', false);
@@ -66,6 +64,9 @@ user_pref('browser.cache.memory.enable', true);
 user_pref('browser.cache.memory.capacity', 1048576);
 user_pref('browser.cache.memory.max_entry_size', 512000);
 
+// Optimize RAM cache by disable RCWN
+user_pref('network.http.rcwn.enabled', false);
+
 // Remove space at end
 user_pref('layout.word_select.eat_space_to_next_word', false);
 
@@ -75,6 +76,8 @@ user_pref('toolkit.legacyUserProfileCustomizations.stylesheets', true);
 // Cookies banner
 user_pref('cookiebanners.service.mode', 2);
 user_pref('cookiebanners.service.mode.privateBrowsing', 2);
+user_pref('cookiebanners.bannerClicking.enabled', true);
+user_pref('cookiebanners.cookieInjector.enabled', true);
 
 // Disable OSCP
 user_pref('security.OCSP.enabled', false);
@@ -84,8 +87,8 @@ user_pref('security.remote_settings.crlite_filters.enabled', true);
 user_pref('security.pki.crlite_mode', 2);
 
 // TTR config
-user_pref('network.trr.uri', 'https://3ckaje6zhs.cloudflare-gateway.com/dns-query');
-user_pref('network.trr.custom_uri', 'https://3ckaje6zhs.cloudflare-gateway.com/dns-query');
+user_pref('network.trr.uri', 'https://ultralow.dns.nextdns.io/1ef3ce');
+user_pref('network.trr.custom_uri', 'https://ultralow.dns.nextdns.io/1ef3ce');
 user_pref('network.dns.skipTRR-when-parental-control-enabled', false);
 user_pref('network.trr.async_connInfo', true);
 user_pref('network.trr.confirmation_telemetry_enabled', false);
@@ -99,3 +102,11 @@ user_pref('network.IDN_show_punycode', true);
 user_pref('network.early-hints.enabled', true);
 user_pref('network.early-hints.preconnect.enabled', true);
 user_pref('network.early-hints.preconnect.max_connections', 20);
+
+// Better scroll
+user_pref('apz.overscroll.enabled', true);
+user_pref('general.smoothScroll', true);
+user_pref('mousewheel.default.delta_multiplier_y', 275);
+
+// Chrome-like scroll bar
+user_pref('widget.non-native-theme.scrollbar.style', 2);

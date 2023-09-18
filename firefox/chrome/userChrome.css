@@ -1,4 +1,4 @@
-/* ############# # Context menu ############# */
+/* Modify Context Menu */
 #context-sep-screenshots,
 #context-sep-navigation {
 	display: none !important;
@@ -34,13 +34,7 @@
 	display: none !important;
 }
 
-/* ############# # Buttons ############# */
-#back-button,
-#forward-button {
-	display: none !important;
-}
-
-/* ############# # Remove space before tabs ############# */
+/* Remove space before tab bar */
 .titlebar-spacer[type='pre-tabs'] {
 	display: none;
 }
