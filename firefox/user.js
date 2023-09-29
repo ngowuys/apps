@@ -113,3 +113,6 @@ user_pref('widget.non-native-theme.scrollbar.style', 2);
 
 // Enable CSS overflow overlay
 user_pref('layout.css.overflow-overlay.enabled', true);
+
+// Skeleton UI
+user_pref('browser.startup.preXulSkeletonUI', false);
